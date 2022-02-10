@@ -216,3 +216,11 @@ document.addEventListener("keydown", function (ev) {
 
 
 });
+
+//pregunta. explicacion requestAnimationFrame
+board_view.draw();
+window.requestAnimationFrame(controller);
+setTimeout(function () {
+    ball.direction = -2;
+}, 4000);
+
