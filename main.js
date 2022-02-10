@@ -224,3 +224,8 @@ setTimeout(function () {
     ball.direction = -2;
 }, 4000);
 
+function controller() {
+    board_view.play();
+    window.requestAnimationFrame(controller);
+
+}
